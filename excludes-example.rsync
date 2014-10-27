@@ -1,0 +1,9 @@
+#ALL EXCLUDES ARE LISTED _RELATIVE_ TO THE ROOT DIRECTORY OF THE RSYNC TARGET
+#YOU CANNOT SPECIFY THE FULL PATH, IT WILL NOT WORK.  (E.G. /home/some/directory/you/want/excluded) 
+#if public_html is the rsync root directory, then you just have to type "/excludes/" here 
+#please see the rsync man pages for how to specify files here
+
+#to use this file, please copy and it rename the copy "excludes.rsync"
+cache/
+tmp/
+
